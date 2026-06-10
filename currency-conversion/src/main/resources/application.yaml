@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: currency-conversion
+app:
+  rates:
+    USD_IDR: 16000
+    IDR_USD: 0.0000625
+    SGD_IDR: 12500
+    IDR_SGD: 0.00008
+management:
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false
